@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# 敏感信息 (非常重要！)
+API_KEY.txt
+
+# macOS
+.DS_Store
+
+# 本地临时数据
+weibo_images_temp/

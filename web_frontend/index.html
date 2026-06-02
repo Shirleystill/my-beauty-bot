@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Beauty Blogger Avatar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-glass"></div>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="chat-header">
+            <div class="avatar-container">
+                <!-- 占位头像，实际可替换为生成的博主头像 -->
+                <div class="avatar">💅</div>
+                <div class="status-indicator"></div>
+            </div>
+            <div class="header-info">
+                <h1>Sherry's Digital Twin</h1>
+                <p>AI Beauty & Skincare Expert</p>
+            </div>
+        </header>
+
+        <!-- Chat Output Section -->
+        <main class="chat-window" id="chatWindow">
+            <div class="message system-message">
+                <div class="bubble">
+                    ✨ 博主数字分身已上线，随时可以问我护肤问题哦！
+                </div>
+            </div>
+        </main>
+
+        <!-- Input Section -->
+        <footer class="chat-input-area">
+            <div class="input-glass">
+                <textarea id="userInput" placeholder="Ask me about skincare..." rows="1" autofocus></textarea>
+                <button id="sendBtn" class="send-btn">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
